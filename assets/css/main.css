@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav > h1{
+    
+    font-weight: bold;
+}
+
+.pc-content{
+text-align: center;
+margin-left: 35px;
+margin-top: 50px;
+}
+.pc-content > h1{
+font-size: 2.1em;
+color: red;
+}
+.pc-content > h2{
+color: red;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.info-pc > h3{
+    margin-top: 50px;
+margin-left: 50px;
+margin-bottom: 20px;
+font-size: 1.2em;
+color: red;
+margin-right: 50px;
+}
+ .config {
+  margin-top: 13px;
+  max-height: 150px; 
+  max-width: 300px;
+  overflow-y: scroll;
+  border: 1px solid rgb(241, 241, 241);  
+  margin-left: 50px;
+  box-shadow: 0px 3px 1px  rgb(241, 241, 241);
+ 
+ }
+.text-avis {
+    margin-top: 50px;
+}
+.text-avis > h1{
+    font-size: 2.1em;
+}
+.text-avis > p{
+    text-align: left;
+    font-size: 0.8;
+}
+.formulario{
+    width: 200px;
+    
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 630px) {
+    .left-side{
+        flex-direction: column;
+    }
+}
